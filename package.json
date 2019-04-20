@@ -9,7 +9,8 @@
     "prestart": "npm run -s build",
     "start": "PORT=8080 npm run dev",
     "start:prod": "npm run build && PORT=8080 node dist",
-    "test": "eslint src"
+    "test": "eslint src",
+    "lint": "eslint . --ext .js"
   },
   "repository": {
     "type": "git",
